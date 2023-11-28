@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF55DBE12B15CA6B00FB36CA /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55DBE02B15CA6B00FB36CA /* FeedItem.swift */; };
+		BF55DBE32B15CD2600FB36CA /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF55DBE22B15CD2600FB36CA /* FeedLoader.swift */; };
 		BF642E142B14DC3000D6F2DC /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF642E0B2B14DC3000D6F2DC /* EssentialFeed.framework */; };
 		BF642E192B14DC3000D6F2DC /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF642E182B14DC3000D6F2DC /* EssentialFeedTests.swift */; };
 		BF642E1A2B14DC3000D6F2DC /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = BF642E0E2B14DC3000D6F2DC /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		BF55DBE02B15CA6B00FB36CA /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		BF55DBE22B15CD2600FB36CA /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		BF642E0B2B14DC3000D6F2DC /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF642E0E2B14DC3000D6F2DC /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		BF642E132B14DC3000D6F2DC /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 			children = (
 				BF642E0E2B14DC3000D6F2DC /* EssentialFeed.h */,
 				BF55DBE02B15CA6B00FB36CA /* FeedItem.swift */,
+				BF55DBE22B15CD2600FB36CA /* FeedLoader.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF55DBE32B15CD2600FB36CA /* FeedLoader.swift in Sources */,
 				BF55DBE12B15CA6B00FB36CA /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
