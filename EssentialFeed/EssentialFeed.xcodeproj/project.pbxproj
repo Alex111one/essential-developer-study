@@ -52,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF55DBE42B15CE7D00FB36CA /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				BF55DBE02B15CA6B00FB36CA /* FeedItem.swift */,
+				BF55DBE22B15CD2600FB36CA /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
 		BF642E012B14DC3000D6F2DC = {
 			isa = PBXGroup;
 			children = (
@@ -74,8 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				BF642E0E2B14DC3000D6F2DC /* EssentialFeed.h */,
-				BF55DBE02B15CA6B00FB36CA /* FeedItem.swift */,
-				BF55DBE22B15CD2600FB36CA /* FeedLoader.swift */,
+				BF55DBE42B15CE7D00FB36CA /* Feed Feature */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
