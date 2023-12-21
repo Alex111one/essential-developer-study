@@ -1,4 +1,3 @@
-import XCTest
 import Foundation
 import EssentialFeed
 
