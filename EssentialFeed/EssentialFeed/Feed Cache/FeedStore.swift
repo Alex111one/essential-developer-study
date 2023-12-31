@@ -1,4 +1,4 @@
- import Foundation
+import Foundation
 
 public typealias CachedFeed = (feed: [LocalFeedImage], timestamp: Date)
 

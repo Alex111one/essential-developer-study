@@ -1,4 +1,4 @@
- import XCTest
+import XCTest
 import EssentialFeed
 
 extension FeedStoreSpecs where Self: XCTestCase {

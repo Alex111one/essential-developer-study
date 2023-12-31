@@ -1,4 +1,4 @@
- import XCTest
+import XCTest
 import EssentialFeed
 
 class CacheFeedUseCaseTests: XCTestCase {

@@ -1,4 +1,4 @@
- import Foundation
+import Foundation
 
 public struct LocalFeedImage: Equatable {
 	public let id: UUID

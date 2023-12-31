@@ -1,4 +1,4 @@
- import CoreData
+import CoreData
 
 @objc(ManagedCache)
 class ManagedCache: NSManagedObject {

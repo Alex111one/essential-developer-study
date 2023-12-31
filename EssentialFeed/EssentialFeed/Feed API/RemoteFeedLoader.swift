@@ -1,4 +1,4 @@
- import Foundation
+import Foundation
 
 public final class RemoteFeedLoader: FeedLoader {
 	private let url: URL
@@ -21,7 +21,7 @@ public final class RemoteFeedLoader: FeedLoader {
 			guard self != nil else { return }
 			
 			switch result {
-			case let .success(data, response):
+			case let .success((data, response)):
 				completion(RemoteFeedLoader.map(data, from: response))
 				
 			case .failure:

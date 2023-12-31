@@ -1,4 +1,4 @@
- import UIKit
+import UIKit
 
 public final class FeedImageCell: UITableViewCell {
 	@IBOutlet private(set) public var locationContainer: UIView!
