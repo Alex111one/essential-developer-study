@@ -4,5 +4,5 @@
 
 - [x] Feed API.
 - [x] Feed Store.
-- [ ] Feed Presentation and UI.
+- [x] Feed Presentation and UI.
 - [ ] Image comments feature.
